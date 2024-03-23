@@ -1,0 +1,13 @@
+export const theme_bg = "#0075d6";
+export const theme_fg = "#0075d6";
+export const theme_shade = "#1d1d2a";
+export const theme_button = "#E81f64";
+export const theme_description = "#888384";      
+export const theme_bg_two = "#e6e6e6";    
+export const theme_fg_two = "#202028";
+export const theme_bg_three = "#FFFFFF";
+export const theme_fg_three = "#FFFFFF";
+export const theme_fg_four = "#a4a9b7";
+export const promo_color = "#4dad4a";
+export const black_layer = "rgba(0, 0, 0, 0.5)"; 
+export const light_blue = "#e9edf5";

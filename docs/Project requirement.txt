@@ -1,0 +1,6 @@
+ Hey akinbolawa90, can you help me with hii i have a laundry 
+project build on react native i purchase the code from code canon . 
+i want to make some change in that like app name , logo package id , 
+firebase setup and admin panal setup basically it have 2 app one is user 
+and second is delivery boy app i am sharing code please check will you able to do 
+that

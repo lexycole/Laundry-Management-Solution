@@ -1,0 +1,887 @@
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>npm i --legacy-peer-deps
+npm WARN deprecated querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm WARN deprecated axios@0.19.2: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm WARN deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+
+added 392 packages, removed 70 packages, changed 16 packages, and audited 1630 packages in 8m
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+16 vulnerabilities (6 moderate, 9 high, 1 critical)
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>npx cross-env NODE_OPTIONS=--openssl-legacy-provider && react-native run-android
+'react-native' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>npx cross-env NODE_OPTIONS=--openssl-legacy-provider && npx react-native run-android
+^C^C^C^C^C^CTerminate batch job (Y/N)? Y
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>npx cross-env NODE_OPTIONS=--openssl-legacy-provider react-native run-android
+info Starting JS server...
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+
+> IDLE
+
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 30.5.0
+:react-native-firebase_app:play.play-services-auth using default value: 20.3.0
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 14.12.0 (14,12,0 - 14012000)
+:react-native-firebase_app:android.compileSdk using custom value: 31
+:react-native-firebase_app:android.targetSdk using custom value: 31
+:react-native-firebase_app:android.minSdk using custom value: 21
+:react-native-firebase_app:reactNativeAndroidDir C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native\android
+
+> Configure project :react-native-firebase_database
+:react-native-firebase_database package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\package.json
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_database:firebase.bom using default value: 30.5.0
+:react-native-firebase_database package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\package.json
+:react-native-firebase_database:version set from package.json: 14.12.0 (14,12,0 - 14012000)
+:react-native-firebase_database:android.compileSdk using custom value: 31
+:react-native-firebase_database:android.targetSdk using custom value: 31
+:react-native-firebase_database:android.minSdk using custom value: 21
+:react-native-firebase_database:reactNativeAndroidDir C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native\android
+
+> Configure project :react-native-reanimated
+AAR for react-native-reanimated has been found
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-reanimated\android\react-native-reanimated-70-hermes.aar
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 up-to-date
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':react-native-safe-area-context'.
+> Could not resolve all files for configuration ':react-native-safe-area-context:classpath'.
+   > Could not download kotlin-gradle-plugin-1.6.20.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.6.20/kotlin-gradle-plugin-1.6.20.jar'.
+         > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.6.20/kotlin-gradle-plugin-1.6.20.jar'.
+            > Network is unreachable: connect
+   > Could not download kotlin-annotation-processing-gradle-1.6.20.jar (org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.6.20)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.6.20/kotlin-annotation-processing-gradle-1.6.20.jar'.
+         > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.6.20/kotlin-annotation-processing-gradle-1.6.20.jar'.
+            > Network is unreachable: connect
+   > Could not download kotlin-compiler-embeddable-1.6.20.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.6.20)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.6.20/kotlin-compiler-embeddable-1.6.20.jar'.
+         > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.6.20/kotlin-compiler-embeddable-1.6.20.jar'.
+            > Network is unreachable: connect
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1h 14m 2s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup.
+Error: Command failed: gradlew.bat app:installDebug -PreactNativeDevServerPort=8081
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':react-native-safe-area-context'.
+> Could not resolve all files for configuration ':react-native-safe-area-context:classpath'.
+   > Could not download kotlin-gradle-plugin-1.6.20.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.20)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.6.20/kotlin-gradle-plugin-1.6.20.jar'.
+         > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.6.20/kotlin-gradle-plugin-1.6.20.jar'.
+            > Network is unreachable: connect
+   > Could not download kotlin-annotation-processing-gradle-1.6.20.jar (org.jetbrains.kotlin:kotlin-annotation-processing-gradle:1.6.20)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.6.20/kotlin-annotation-processing-gradle-1.6.20.jar'.
+         > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.6.20/kotlin-annotation-processing-gradle-1.6.20.jar'.
+            > Network is unreachable: connect
+   > Could not download kotlin-compiler-embeddable-1.6.20.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.6.20)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.6.20/kotlin-compiler-embeddable-1.6.20.jar'.
+         > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.6.20/kotlin-compiler-embeddable-1.6.20.jar'.
+            > Network is unreachable: connect
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 1h 14m 2s
+
+    at makeError (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\node_modules\execa\index.js:174:9)
+    at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\node_modules\execa\index.js:278:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async runOnAllDevices (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\runOnAllDevices.js:109:5)
+    at async Command.handleAction (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli\build\index.js:118:9)
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>npx cross-env NODE_OPTIONS=--openssl-legacy-provider react-native run-android
+info Starting JS server...
+i
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 30.5.0
+:react-native-firebase_app:play.play-services-auth using default value: 20.3.0
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 14.12.0 (14,12,0 - 14012000)
+:react-native-firebase_app:android.compileSdk using custom value: 31
+:react-native-firebase_app:android.targetSdk using custom value: 31
+:react-native-firebase_app:android.minSdk using custom value: 21
+:react-native-firebase_app:reactNativeAndroidDir C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native\android
+
+> Configure project :react-native-firebase_database
+:react-native-firebase_database package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\package.json
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_database:firebase.bom using default value: 30.5.0
+:react-native-firebase_database package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\package.json
+:react-native-firebase_database:version set from package.json: 14.12.0 (14,12,0 - 14012000)
+:react-native-firebase_database:android.compileSdk using custom value: 31
+:react-native-firebase_database:android.targetSdk using custom value: 31
+:react-native-firebase_database:android.minSdk using custom value: 21
+:react-native-firebase_database:reactNativeAndroidDir C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native\android
+
+> Configure project :react-native-reanimated
+AAR for react-native-reanimated has been found
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-reanimated\android\react-native-reanimated-70-hermes.aar
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+5 actionable tasks: 5 up-to-date
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':react-native-screens'.
+> Could not resolve all files for configuration ':react-native-screens:classpath'.
+   > Could not download gradle-4.2.2.jar (com.android.tools.build:gradle:4.2.2)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/4.2.2/gradle-4.2.2.jar'.
+         > Read timed out
+   > Could not download kotlin-gradle-plugin-1.8.0-gradle75.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.8.0/kotlin-gradle-plugin-1.8.0-gradle75.jar'.
+         > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.8.0/kotlin-gradle-plugin-1.8.0-gradle75.jar'.
+            > No such host is known (repo.maven.apache.org)
+   > Could not download builder-4.2.2.jar (com.android.tools.build:builder:4.2.2)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/4.2.2/builder-4.2.2.jar'.
+         > Read timed out
+   > Could not download kotlin-reflect-1.4.31.jar (org.jetbrains.kotlin:kotlin-reflect:1.4.31)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.31/kotlin-reflect-1.4.31.jar'.
+         > Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18m 17s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup.
+Error: Command failed: gradlew.bat app:installDebug -PreactNativeDevServerPort=8081
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':react-native-screens'.
+> Could not resolve all files for configuration ':react-native-screens:classpath'.
+   > Could not download gradle-4.2.2.jar (com.android.tools.build:gradle:4.2.2)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/4.2.2/gradle-4.2.2.jar'.
+         > Read timed out
+   > Could not download kotlin-gradle-plugin-1.8.0-gradle75.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.8.0/kotlin-gradle-plugin-1.8.0-gradle75.jar'.
+         > Could not GET 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.8.0/kotlin-gradle-plugin-1.8.0-gradle75.jar'.
+            > No such host is known (repo.maven.apache.org)
+   > Could not download builder-4.2.2.jar (com.android.tools.build:builder:4.2.2)
+      > Could not get resource 'https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/4.2.2/builder-4.2.2.jar'.
+         > Read timed out
+   > Could not download kotlin-reflect-1.4.31.jar (org.jetbrains.kotlin:kotlin-reflect:1.4.31)
+      > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.31/kotlin-reflect-1.4.31.jar'.
+         > Read timed out
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 18m 17s
+
+    at makeError (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\node_modules\execa\index.js:174:9)
+    at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\node_modules\execa\index.js:278:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async runOnAllDevices (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\runOnAllDevices.js:109:5)
+    at async Command.handleAction (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli\build\index.js:118:9)
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>npx cross-env NODE_OPTIONS=--openssl-legacy-provider react-native run-android
+info JS server already running.
+info Installing the app...
+> IDLE
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 30.5.0
+:react-native-firebase_app:play.play-services-auth using default value: 20.3.0
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 14.12.0 (14,12,0 - 14012000)
+:react-native-firebase_app:android.compileSdk using custom value: 31
+:react-native-firebase_app:android.targetSdk using custom value: 31
+:react-native-firebase_app:android.minSdk using custom value: 21
+:react-native-firebase_app:reactNativeAndroidDir C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native\android
+
+> Configure project :react-native-firebase_database
+:react-native-firebase_database package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\package.json
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_database:firebase.bom using default value: 30.5.0
+:react-native-firebase_database package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\package.json
+:react-native-firebase_database:version set from package.json: 14.12.0 (14,12,0 - 14012000)
+:react-native-firebase_database:android.compileSdk using custom value: 31
+:react-native-firebase_database:android.targetSdk using custom value: 31
+:react-native-firebase_database:android.minSdk using custom value: 21
+:react-native-firebase_database:reactNativeAndroidDir C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native\android
+
+> Configure project :react-native-reanimated
+AAR for react-native-reanimated has been found
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-reanimated\android\react-native-reanimated-70-hermes.aar
+Checking the license for package Android SDK Build-Tools 31 in C:\Users\HP\AppData\Local\Android\Sdk\licenses
+License for package Android SDK Build-Tools 31 accepted.
+Preparing "Install Android SDK Build-Tools 31 (revision: 31.0.0)".
+"Install Android SDK Build-Tools 31 (revision: 31.0.0)" ready.
+Installing Android SDK Build-Tools 31 in C:\Users\HP\AppData\Local\Android\Sdk\build-tools\31.0.0
+"Install Android SDK Build-Tools 31 (revision: 31.0.0)" complete.
+"Install Android SDK Build-Tools 31 (revision: 31.0.0)" finished.
+WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 33
+
+This Android Gradle plugin (7.2.1) was tested up to compileSdk = 32
+
+This warning can be suppressed by adding
+    android.suppressUnsupportedCompileSdk=33
+to this project's gradle.properties
+
+
+> Task :app:checkDebugAarMetadata FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+180 actionable tasks: 169 executed, 11 up-to-date
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+   > 4 issues were found when checking AAR metadata:
+
+       1.  Dependency 'androidx.appcompat:appcompat-resources:1.5.0' requires libraries and applications that
+           depend on it to compile against version 32 or later of the
+           Android APIs.
+
+           :app is currently compiled against android-31.
+
+           Recommended action: Update this project to use a newer compileSdkVersion
+           of at least 32, for example 32.
+
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+       2.  Dependency 'androidx.appcompat:appcompat:1.5.0' requires libraries and applications that
+           depend on it to compile against version 32 or later of the
+           Android APIs.
+
+           :app is currently compiled against android-31.
+
+           Recommended action: Update this project to use a newer compileSdkVersion
+           of at least 32, for example 32.
+
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+       3.  Dependency 'androidx.emoji2:emoji2-views-helper:1.2.0' requires libraries and applications that
+           depend on it to compile against version 32 or later of the
+           Android APIs.
+
+           :app is currently compiled against android-31.
+
+           Recommended action: Update this project to use a newer compileSdkVersion
+           of at least 32, for example 32.
+
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+       4.  Dependency 'androidx.emoji2:emoji2:1.2.0' requires libraries and applications that
+           depend on it to compile against version 32 or later of the
+           Android APIs.
+
+           :app is currently compiled against android-31.
+
+           Recommended action: Update this project to use a newer compileSdkVersion
+           of at least 32, for example 32.
+
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+java.lang.StackOverflowError (no error message)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13m 39s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup.
+Error: Command failed: gradlew.bat app:installDebug -PreactNativeDevServerPort=8081
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+   > 4 issues were found when checking AAR metadata:
+
+       1.  Dependency 'androidx.appcompat:appcompat-resources:1.5.0' requires libraries and applications that
+           depend on it to compile against version 32 or later of the
+           Android APIs.
+
+           :app is currently compiled against android-31.
+
+           Recommended action: Update this project to use a newer compileSdkVersion
+           of at least 32, for example 32.
+
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+       2.  Dependency 'androidx.appcompat:appcompat:1.5.0' requires libraries and applications that
+           depend on it to compile against version 32 or later of the
+           Android APIs.
+
+           :app is currently compiled against android-31.
+
+           Recommended action: Update this project to use a newer compileSdkVersion
+           of at least 32, for example 32.
+
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+       3.  Dependency 'androidx.emoji2:emoji2-views-helper:1.2.0' requires libraries and applications that
+           depend on it to compile against version 32 or later of the
+           Android APIs.
+
+           :app is currently compiled against android-31.
+
+           Recommended action: Update this project to use a newer compileSdkVersion
+           of at least 32, for example 32.
+
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+       4.  Dependency 'androidx.emoji2:emoji2:1.2.0' requires libraries and applications that
+           depend on it to compile against version 32 or later of the
+           Android APIs.
+
+           :app is currently compiled against android-31.
+
+           Recommended action: Update this project to use a newer compileSdkVersion
+           of at least 32, for example 32.
+
+           Note that updating a library or application's compileSdkVersion (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdkVersion (which opts the app in to new runtime behavior) and
+           minSdkVersion (which determines which devices the app can be installed
+           on).
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+java.lang.StackOverflowError (no error message)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 13m 39s
+
+    at makeError (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\node_modules\execa\index.js:174:9)
+    at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\node_modules\execa\index.js:278:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async runOnAllDevices (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\runOnAllDevices.js:109:5)
+    at async Command.handleAction (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli\build\index.js:118:9)
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>npx cross-env NODE_OPTIONS=--openssl-legacy-provider react-native run-android
+info JS server already running.
+info Installing the app...
+
+> Connecting to Daemon
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 30.5.0
+:react-native-firebase_app:play.play-services-auth using default value: 20.3.0
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 14.12.0 (14,12,0 - 14012000)
+:react-native-firebase_app:android.compileSdk using custom value: 33
+:react-native-firebase_app:android.targetSdk using custom value: 31
+:react-native-firebase_app:android.minSdk using custom value: 21
+:react-native-firebase_app:reactNativeAndroidDir C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native\android
+
+> Configure project :react-native-firebase_database
+:react-native-firebase_database package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\package.json
+:react-native-firebase_app package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_database:firebase.bom using default value: 30.5.0
+:react-native-firebase_database package.json found at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\package.json
+:react-native-firebase_database:version set from package.json: 14.12.0 (14,12,0 - 14012000)
+:react-native-firebase_database:android.compileSdk using custom value: 33
+:react-native-firebase_database:android.targetSdk using custom value: 31
+:react-native-firebase_database:android.minSdk using custom value: 21
+:react-native-firebase_database:reactNativeAndroidDir C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native\android
+
+> Configure project :react-native-reanimated
+AAR for react-native-reanimated has been found
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-reanimated\android\react-native-reanimated-70-hermes.aar
+WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 33
+
+This Android Gradle plugin (7.2.1) was tested up to compileSdk = 32
+
+This warning can be suppressed by adding
+    android.suppressUnsupportedCompileSdk=33
+to this project's gradle.properties
+
+The build will continue, but you are strongly encouraged to update your project to
+use a newer Android Gradle Plugin that has been tested with compileSdk = 33
+WARNING:We recommend using a newer Android Gradle plugin to use compileSdk = 33
+
+This Android Gradle plugin (7.2.1) was tested up to compileSdk = 32
+
+This warning can be suppressed by adding
+    android.suppressUnsupportedCompileSdk=33
+to this project's gradle.properties
+
+The build will continue, but you are strongly encouraged to update your project to
+use a newer Android Gradle Plugin that has been tested with compileSdk = 33
+
+> Task :lottie-react-native:compileDebugJavaWithJavac
+
+> Task :react-native-async-storage_async-storage:compileDebugJavaWithJavac
+
+> Task :react-native-community_datetimepicker:compileDebugJavaWithJavac
+
+> Task :react-native-community_geolocation:compileDebugJavaWithJavac
+
+> Task :react-native-firebase_app:compileDebugJavaWithJavac
+
+> Task :react-native-firebase_database:compileDebugJavaWithJavac
+
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac
+
+> Task :react-native-image-base64:compileDebugJavaWithJavac
+
+> Task :react-native-image-picker:compileDebugJavaWithJavac
+
+> Task :react-native-localization:compileDebugJavaWithJavac
+
+> Task :react-native-maps:compileDebugJavaWithJavac
+
+> Task :react-native-picker_picker:compileDebugJavaWithJavac
+
+> Task :react-native-push-notification:compileDebugJavaWithJavac
+
+> Task :react-native-razorpay:compileDebugJavaWithJavac
+
+> Task :react-native-safe-area-context:compileDebugKotlin
+Could not perform incremental compilation: Could not connect to Kotlin compile daemon
+Could not connect to kotlin daemon. Using fallback strategy.
+
+> Task :react-native-screens:compileDebugKotlin
+Failed to compile with Kotlin daemon: java.lang.RuntimeException: Could not connect to Kotlin compile daemon
+        at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDaemon(GradleKotlinCompilerWork.kt:192)
+        at org.jetbrains.kotlin.compilerRunner.GradleKotlinCompilerWork.compileWithDaemonOrFallbackImpl(GradleKotlinCompilerWork.kt:150)
+<============-> 99% EXECUTING [25m 29s]
+<============-> 99% EXECUTING [25m 30s]
+> :app:mergeDebugNativeLibs
+> IDLE
+> IDLE
+        at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+<=<============-> 99% EXECUTING [31m 31s]
+        at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+> :app:stripDebugDebugSymbols
+        at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:199)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:157)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+        at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+        at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:73)
+        at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+        at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+        at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$2(DefaultWorkerExecutor.java:205)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:187)
+        at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:120)
+
+> Task :app:installDebugternal.Factories$1.create(Factories.java:31)
+[PropertyFetcher]: TimeoutException getting properties for device emulator-5554
+java.lang.Throwable: TimeoutException getting properties for device emulator-5554efaultWorkerLeaseService.java:109)
+        at com.android.ddmlib.PropertyFetcher.handleException(PropertyFetcher.java:248)WorkerLeaseService.java:114)
+        at com.android.ddmlib.PropertyFetcher.access$500(PropertyFetcher.java:30)ner.runBatch(DefaultConditionalExecutionQueue.java:157)
+        at com.android.ddmlib.PropertyFetcher$1.run(PropertyFetcher.java:211)nRunner.run(DefaultConditionalExecutionQueue.java:126)
+Caused by: com.android.ddmlib.TimeoutExceptionutors$RunnableAdapter.call(Executors.java:515)
+        at com.android.ddmlib.AdbHelper.read(AdbHelper.java:1169)sk.java:264)
+        at com.android.ddmlib.AdbHelper.readAdbResponse(AdbHelper.java:317)ures.onExecute(ExecutorPolicy.java:64)
+        at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:618)torImpl.java:48)
+        at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:475)lExecutor.java:1128)
+        at com.android.ddmlib.internal.DeviceImpl.executeShellCommand(DeviceImpl.java:706).java:628)
+        at com.android.ddmlib.PropertyFetcher$1.run(PropertyFetcher.java:207)
+Using fallback strategy: Compile without Kotlin daemon
+[PropertyFetcher]: TimeoutException getting properties for device emulator-5554
+java.lang.Throwable: TimeoutException getting properties for device emulator-5554
+        at com.android.ddmlib.PropertyFetcher.handleException(PropertyFetcher.java:248)
+        at com.android.ddmlib.PropertyFetcher.access$500(PropertyFetcher.java:30)
+        at com.android.ddmlib.PropertyFetcher$1.run(PropertyFetcher.java:211)
+Caused by: com.android.ddmlib.TimeoutException
+        at com.android.ddmlib.AdbHelper.read(AdbHelper.java:1169)
+        at com.android.ddmlib.AdbHelper.readAdbResponse(AdbHelper.java:317)
+        at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:618)
+        at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:475)
+        at com.android.ddmlib.internal.DeviceImpl.executeShellCommand(DeviceImpl.java:706)
+        at com.android.ddmlib.PropertyFetcher$1.run(PropertyFetcher.java:207)
+
+Skipping device 'Pixel_3a_API_34_extension_level_7_x86_64(AVD)' for ':app:debug': Unknown API Level
+
+> Task :app:installDebug FAILED
+w: Detected multiple Kotlin daemon sessions at build\kotlin\sessions
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+416 actionable tasks: 241 executed, 175 up-to-date
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\lottie-react-native\src\android\src\main\java\com\airbnb\android\react\lottie\LottieAnimationViewManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\lottie-react-native\src\android\src\main\java\com\airbnb\android\react\lottie\LottieAnimationViewManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-async-storage\async-storage\android\src\main\java\com\reactnativecommunity\asyncstorage\AsyncStorageModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-async-storage\async-storage\android\src\javaPackage\java\com\reactnativecommunity\asyncstorage\AsyncStoragePackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\geolocation\android\src\main\java\com\reactnativecommunity\geolocation\GeolocationModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\android\src\reactnative\java\io\invertase\firebase\database\ReactNativeFirebaseDatabaseCommon.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-image-base64\android\src\main\java\fr\snapp\imagebase64\RNImgToBase64Module.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-image-picker\android\src\main\java\com\imagepicker\Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-localization\android\src\main\java\com\babisoft\ReactNativeLocalization\ReactNativeLocalization.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-push-notification\android\src\main\java\com\dieam\reactnativepushnotification\modules\RNPushNotification.java uses unchecked or unsafe operations.Note: Recompile with -Xlint:unchecked for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-razorpay\android\src\main\java\com\razorpay\rn\RazorpayModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-safe-area-context\android\src\main\java\com\th3rdwave\safeareacontext\SafeAreaView.kt:59:23: warning: 'getter for uiImplementation: UIImplementation!' is deprecated. Deprecated in Java
+            uiManager.uiImplementation.dispatchViewUpdates(-1)
+                      ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\Screen.kt:87:22: warning: 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+            object : GuardedRunnable(reactContext) {
+                     ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt:65:28: warning: 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+            mAppBarLayout?.targetElevation = if (hidden) 0f else PixelUtil.toPixelFromDIP(4f)
+                           ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt:128:28: warning: 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+            mAppBarLayout?.targetElevation = 0f
+                           ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt:86:34: warning: 'getter for systemWindowInsetTop: Int' is deprecated. Deprecated in Java
+                rootWindowInsets.systemWindowInsetTop
+                                 ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt:229:37: warning: 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+            toolbar.navigationIcon?.setColorFilter(mTintColor, PorterDuff.Mode.SRC_ATOP)
+                                    ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:65:22: warning: 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+            object : GuardedRunnable(context) {
+                     ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:110:22: warning: 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+            object : GuardedRunnable(context) {
+                     ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:137:47: warning: 'replaceSystemWindowInsets(Int, Int, Int, Int): WindowInsetsCompat' is deprecated. Deprecated in Java
+                                defaultInsets.replaceSystemWindowInsets(
+                                              ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:138:51: warning: 'getter for systemWindowInsetLeft: Int' is deprecated. Deprecated in Java
+                                    defaultInsets.systemWindowInsetLeft,
+                                                  ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:140:51: warning: 'getter for systemWindowInsetRight: Int' is deprecated. Deprecated in Java
+                                    defaultInsets.systemWindowInsetRight,
+                                                  ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:141:51: warning: 'getter for systemWindowInsetBottom: Int' is deprecated. Deprecated in Java
+                                    defaultInsets.systemWindowInsetBottom
+                                                  ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\SearchBarManager.kt:100:22: warning: parameter 'view' is never used
+    fun setPlacement(view: SearchBarView, placeholder: String?) = Unit
+                     ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\SearchBarManager.kt:100:43: warning: parameter 'placeholder' is never used
+    fun setPlacement(view: SearchBarView, placeholder: String?) = Unit
+                                          ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\SearchBarView.kt:147:43: warning: parameter 'flag' is never used
+    fun handleToggleCancelButtonJsRequest(flag: Boolean) = Unit
+                                          ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderHeightChangeEvent.kt:5:44: warning: 'RCTEventEmitter' is deprecated. Deprecated in Java
+import com.facebook.react.uimanager.events.RCTEventEmitter
+                                           ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderHeightChangeEvent.kt:10:5: warning: 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+) : Event<HeaderHeightChangeEvent>(viewId) {
+    ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderHeightChangeEvent.kt:17:44: warning: 'RCTEventEmitter' is deprecated. Deprecated in Java
+    override fun dispatch(rctEventEmitter: RCTEventEmitter) {
+                                           ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderHeightChangeEvent.kt:20:25: warning: 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+        rctEventEmitter.receiveEvent(viewTag, eventName, map)
+                        ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt:11:42: warning: parameter 'width' is never used
+    protected fun updateScreenSizeFabric(width: Int, height: Int) {
+                                         ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt:11:54: warning: parameter 'height' is never used
+    protected fun updateScreenSizeFabric(width: Int, height: Int) {
+                                                     ^
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\android\app\src\debug\java\com\rithlaundrycustomertwo\ReactNativeFlipper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:installDebug'.
+> java.util.concurrent.ExecutionException: org.gradle.api.GradleException: Failed to install on any devices.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 35m 8s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup.
+Error: Command failed: gradlew.bat app:installDebug -PreactNativeDevServerPort=8081
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\lottie-react-native\src\android\src\main\java\com\airbnb\android\react\lottie\LottieAnimationViewManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\lottie-react-native\src\android\src\main\java\com\airbnb\android\react\lottie\LottieAnimationViewManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-async-storage\async-storage\android\src\main\java\com\reactnativecommunity\asyncstorage\AsyncStorageModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-async-storage\async-storage\android\src\javaPackage\java\com\reactnativecommunity\asyncstorage\AsyncStoragePackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\geolocation\android\src\main\java\com\reactnativecommunity\geolocation\GeolocationModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-firebase\database\android\src\reactnative\java\io\invertase\firebase\database\ReactNativeFirebaseDatabaseCommon.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-image-base64\android\src\main\java\fr\snapp\imagebase64\RNImgToBase64Module.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-image-picker\android\src\main\java\com\imagepicker\Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-localization\android\src\main\java\com\babisoft\ReactNativeLocalization\ReactNativeLocalization.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-push-notification\android\src\main\java\com\dieam\reactnativepushnotification\modules\RNPushNotification.java uses unchecked or unsafe operations.Note: Recompile with -Xlint:unchecked for details.
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-razorpay\android\src\main\java\com\razorpay\rn\RazorpayModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-safe-area-context\android\src\main\java\com\th3rdwave\safeareacontext\SafeAreaView.kt:59:23: warning: 'getter for uiImplementation: UIImplementation!' is deprecated. Deprecated in Java
+            uiManager.uiImplementation.dispatchViewUpdates(-1)
+                      ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\Screen.kt:87:22: warning: 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+            object : GuardedRunnable(reactContext) {
+                     ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt:65:28: warning: 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+            mAppBarLayout?.targetElevation = if (hidden) 0f else PixelUtil.toPixelFromDIP(4f)
+                           ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt:128:28: warning: 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+            mAppBarLayout?.targetElevation = 0f
+                           ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt:86:34: warning: 'getter for systemWindowInsetTop: Int' is deprecated. Deprecated in Java
+                rootWindowInsets.systemWindowInsetTop
+                                 ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt:229:37: warning: 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+            toolbar.navigationIcon?.setColorFilter(mTintColor, PorterDuff.Mode.SRC_ATOP)
+                                    ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:65:22: warning: 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+            object : GuardedRunnable(context) {
+                     ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:110:22: warning: 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+            object : GuardedRunnable(context) {
+                     ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:137:47: warning: 'replaceSystemWindowInsets(Int, Int, Int, Int): WindowInsetsCompat' is deprecated. Deprecated in Java
+                                defaultInsets.replaceSystemWindowInsets(
+                                              ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:138:51: warning: 'getter for systemWindowInsetLeft: Int' is deprecated. Deprecated in Java
+                                    defaultInsets.systemWindowInsetLeft,
+                                                  ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:140:51: warning: 'getter for systemWindowInsetRight: Int' is deprecated. Deprecated in Java
+                                    defaultInsets.systemWindowInsetRight,
+                                                  ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt:141:51: warning: 'getter for systemWindowInsetBottom: Int' is deprecated. Deprecated in Java
+                                    defaultInsets.systemWindowInsetBottom
+                                                  ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\SearchBarManager.kt:100:22: warning: parameter 'view' is never used
+    fun setPlacement(view: SearchBarView, placeholder: String?) = Unit
+                     ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\SearchBarManager.kt:100:43: warning: parameter 'placeholder' is never used
+    fun setPlacement(view: SearchBarView, placeholder: String?) = Unit
+                                          ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\SearchBarView.kt:147:43: warning: parameter 'flag' is never used
+    fun handleToggleCancelButtonJsRequest(flag: Boolean) = Unit
+                                          ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderHeightChangeEvent.kt:5:44: warning: 'RCTEventEmitter' is deprecated. Deprecated in Java
+import com.facebook.react.uimanager.events.RCTEventEmitter
+                                           ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderHeightChangeEvent.kt:10:5: warning: 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+) : Event<HeaderHeightChangeEvent>(viewId) {
+    ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderHeightChangeEvent.kt:17:44: warning: 'RCTEventEmitter' is deprecated. Deprecated in Java
+    override fun dispatch(rctEventEmitter: RCTEventEmitter) {
+                                           ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderHeightChangeEvent.kt:20:25: warning: 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+        rctEventEmitter.receiveEvent(viewTag, eventName, map)
+                        ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt:11:42: warning: parameter 'width' is never used
+    protected fun updateScreenSizeFabric(width: Int, height: Int) {
+                                         ^
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt:11:54: warning: parameter 'height' is never used
+    protected fun updateScreenSizeFabric(width: Int, height: Int) {
+                                                     ^
+Note: C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\android\app\src\debug\java\com\rithlaundrycustomertwo\ReactNativeFlipper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:installDebug'.
+> java.util.concurrent.ExecutionException: org.gradle.api.GradleException: Failed to install on any devices.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 35m 8s
+
+    at makeError (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\node_modules\execa\index.js:174:9)
+    at C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\node_modules\execa\index.js:278:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async runOnAllDevices (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli-platform-android\build\commands\runAndroid\runOnAllDevices.js:109:5)
+    at async Command.handleAction (C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo\node_modules\@react-native-community\cli\build\index.js:118:9)
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>npx cross-env NODE_OPTIONS=--openssl-legacy-provider react-native run-android
+info Starting JS server...
+info Installing the app...
+^C^CTerminate batch job (Y/N)?
+^C^C
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>
+
+C:\Users\HP\WEB SCRIPTER\NEW PROJECT MERN\19-dec-2023 projects\laundry rn\newrlc\plain js rn\rithlaundrycustomertwo>
